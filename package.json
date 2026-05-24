@@ -4,8 +4,11 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "build": "node scripts/build-web-preview.js",
+    "build:web": "node scripts/build-web-preview.js",
     "ios": "react-native run-ios",
     "lint": "eslint .",
+    "preview:web": "npx serve .",
     "start": "react-native start",
     "test": "jest"
   },
